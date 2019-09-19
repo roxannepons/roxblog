@@ -21,6 +21,17 @@ h1 {
 }
 h2, h3, h4 {
     font-family: 'Open Sans', sans-serif;
+    color: #ff8000;
+}
+
+a {
+  color: #ff8000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  color: #ff5500;
+  text-decoration: none;
 }
 
 .date {
@@ -49,6 +60,6 @@ h2, h3, h4 {
     border-radius: 10px;
 }
 
-.post h2 a, .post h2 a:visited {
-    color: #ff8000;
+.btn {
+  float: right;
 }

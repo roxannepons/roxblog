@@ -26,6 +26,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
+>>>>>>> 8bbce6b025d7e0fdd5bf7c200726f2812d4e4ce3
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -120,3 +122,10 @@ STATIC_URL = '/static/'
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+<<<<<<< HEAD
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+=======
+>>>>>>> 54da1f4875e3dc27201d1b9419a64bf7dcb897eb
